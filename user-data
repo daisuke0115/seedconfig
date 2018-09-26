@@ -24,6 +24,7 @@ users:
 #    ssh-authorized-keys:
 #      - ssh-public-key-information
 #    lock_passwd: true
+ssh_pwauth: True
 chpasswd:
   list: |
     ec2-user:<password>
