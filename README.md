@@ -19,6 +19,5 @@ genisoimage -output seed.iso -volid cidata -joliet -rock user-data meta-data
 
 #注意点
 Network指定時にOnboot設定を行う方法が不明。判明次第追記する。
-SSHで接続時の鍵認証となってしまう点を修正する。
 Gitに上げるときはセンシティブな情報を修正するシェルを流してから上げること。
 
